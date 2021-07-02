@@ -1,0 +1,13 @@
+data=[20,23,344,55,5,1,5436,96,564,25,25,12,423,54,65,1,5412,3,4345,656,5,67,62342,12]
+even=[]
+odd=[]
+ecnt=0
+ocnt=0
+for eve in data:
+    if eve%2==0:
+        even.append(eve)
+    else:
+        odd.append(eve)
+print(even,odd)
+print(len(even))
+print(len(odd))
