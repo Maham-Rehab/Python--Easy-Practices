@@ -1,0 +1,16 @@
+def areatpr(base1,base2,height):
+    areatpr=0.5*(base1+base2)*height
+    print(f'area={areatpr}')
+def main():
+    areatpr(10,5,3)
+if __name__=="__main__":
+    main()0
+def sum_p(s,e):
+    count=s
+    for i in range(s,e+1):
+        count=count+i
+    print(count)
+def main():
+    sum_p(1,10)
+if __name__=="__main__":
+    main()
