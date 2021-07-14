@@ -1,0 +1,7 @@
+def intof(tempC):
+    tempF = (tempC * 1.8) + 32
+    print('celcius=',tempC,'farhenheit=',tempF)
+def main():
+    intof(45)
+if __name__=='__main__':
+    main()
