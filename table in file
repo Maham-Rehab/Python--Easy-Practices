@@ -1,0 +1,9 @@
+def write_file():
+    f=open("table_by_file","w+")
+    n=2
+    print("we are writing new table in file using definition")
+    for i in range(1,11):
+           num=["2 *",i,"=",2*i]
+           f.write(str(num))
+    f.close()
+write_file()
