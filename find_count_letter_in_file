@@ -1,0 +1,12 @@
+f = open("file.txt", "r+")
+file = f.read()
+def f_write():
+    letter=input("enter alphabet")
+    print("we are searching",letter)
+    count=0
+    for i in file:
+        if i == letter:
+            count=count+1
+    print("num of count=",count)
+f.close()
+f_write()
